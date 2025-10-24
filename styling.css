@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    /* width: 100%; */
+    display: flex;
+    background-color: black;
+}
+.navbar .img img{
+    height: 70px;
+    padding: 15px;
+    width: 100px;
+}
+.navbar .MenuBar li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.navbar .MenuBar{
+    margin-left: 155px;
+}
+.navbar .MenuBar ul{
+    display: flex;
+}
+.navbar .MenuBar li{
+    list-style: none;
+    margin-top: 25px;
+    margin-left: 55px;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: beige;
+}
+.orderItems{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid firebrick;
+    /* text-align: center; */
+}
+.OrderNow{
+    /* border: 2px solid firebrick; */
+    margin-top: 20px;
+    display: flex;
+}
+.OrderNow p{
+    margin-top: 5.5px;
+    margin-left: 10px;
+    font-size: 17px;
+    margin-right: 10px;
+}
+.OrderNow button{
+    height: 30px;
+    width: 40px;
+}
+.orderItems img{
+    height: 200px;
+    width: 300px;
+}
+#OrderItems{
+    display: grid;
+    place-items: center;
+    /* background-color: antiquewhite; */
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 10px;
+    /* padding: 5px; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Rate{
+    margin-top: 15px;
+}
+.OrderNow1{
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* height: 40px; */
+}
+.OrderNow1 button{
+    height: 30px;
+    width: 170px;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: aqua;
+    margin-bottom: 10px;
+}
+#Contact{
+    background-color: black;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+#head{
+    margin-top: 10px;
+}

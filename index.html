@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E Commerce for diwali</title>
+    <link rel="stylesheet" href="styling.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="img">
+            <img src="https://static.vecteezy.com/system/resources/previews/012/214/173/non_2x/diwali-mega-sale-discount-offer-logo-unit-with-yellow-background-sign-symbol-modern-logo-vector.jpg" alt="">
+        </div>
+        <div class="MenuBar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="file:///Users/mac/Desktop/codes/ECom/About.html">About Service</a></li>
+                <li><a href="#Contact">Contact Us</a></li>
+                <li><a href="file:///Users/mac/Desktop/codes/ECom/Rate.html">Rate Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="OrderItems">
+        <div class="orderItems">
+            <!--Bomb-->
+            <img src="https://www.shutterstock.com/shutterstock/photos/1483388597/display_1500/stock-photo-diwali-fire-bomb-cracker-on-white-1483388597.jpg" alt="">
+            <div class="OrderNow">
+                <button id="Increment" onclick="Increments(0)">+</button>
+                <p id="Counts">0</p>
+                <button id="Decrement" onclick="Decrements(0)">-</button>
+            </div>
+            <div class="Rate">
+                <h2>200</h2>
+            </div>
+        </div>
+        <div class="orderItems">
+            <!--Bomb-->
+            <img src="https://tiimg.tistatic.com/fp/1/005/279/anar-fire-crackers-052.jpg" alt="">
+            <div class="OrderNow">
+                <button id="Increment" onclick="Increments(1)">+</button>
+                <p id="Counts">0</p>
+                <button id="Decrement" onclick="Decrements(1)">-</button>
+            </div>
+            <div class="Rate">
+                <h2>140</h2>
+            </div>
+        </div>
+        <div class="orderItems">
+            <!--Bomb-->
+            <img src="https://tiimg.tistatic.com/fp/1/007/638/multi-color-round-shape-chakri-diwali-crackers-for-celebrate-the-diwali-689.jpg" alt="">
+            <div class="OrderNow">
+                <button id="Increment" onclick="Increments(2)">+</button>
+                <p id="Counts">0</p>
+                <button id="Decrement" onclick="Decrements(2)">-</button>
+            </div>
+            <div class="Rate">
+                <h2>250</h2>
+            </div>
+        </div>
+        <div class="orderItems">
+            <!--Bomb-->
+            <img src="https://5.imimg.com/data5/SELLER/Default/2024/1/374472026/DX/KC/BJ/3209555/small-sky-shot-fancy-fountains.jpg" alt="">
+            <div class="OrderNow">
+                <button id="Increment" onclick="Increments(3)">+</button>
+                <p id="Counts">0</p>
+                <button id="Decrement" onclick="Decrements(3)">-</button>
+            </div>
+            <div class="Rate">
+                <h2>350</h2>
+            </div>
+        </div>
+        <div class="orderItems">
+            <!--Bomb-->
+            <img src="https://5.imimg.com/data5/ANDROID/Default/2021/9/OG/GI/SW/16661248/product-jpeg.jpg" alt="">
+            <div class="OrderNow">
+                <button id="Increment" onclick="Increments(4)">+</button>
+                <p id="Counts">0</p>
+                <button id="Decrement" onclick="Decrements(4)">-</button>
+            </div>
+            <div class="Rate">
+                <h2>320</h2>
+            </div>
+        </div>
+        <div class="orderItems">
+            <!--Bomb-->
+            <img src="https://tiimg.tistatic.com/fp/1/008/238/12-inches-long-bright-shining-fuljhadi-diwali-fire-crackers-882.jpg" alt="">
+            <div class="OrderNow">
+                <button id="Increment" onclick="Increments(5)">+</button>
+                <p id="Counts">0</p>
+                <button id="Decrement" onclick="Decrements(5)">-</button>
+            </div>
+            <div class="Rate">
+                <h2>510</h2>
+            </div>
+        </div>
+        <div class="orderItems">
+            <!--Bomb-->
+            <img src="https://www.bbassets.com/media/uploads/p/l/40117078_2-standard-fireworks-rockets-bomb.jpg" alt="">
+            <div class="OrderNow">
+                <button id="Increment" onclick="Increments(6)">+</button>
+                <p id="Counts">0</p>
+                <button id="Decrement" onclick="Decrements(6)">-</button>
+            </div>
+            <div class="Rate">
+                <h2>400</h2>
+            </div>
+        </div>
+        <div class="orderItems">
+            <!--Bomb-->
+            <img src="https://www.mystore.in/s/62ea2c599d1398fa16dbae0a/67162e80489656036c71045a/pop-pop-crackers-640x640.jpg" alt="">
+            <div class="OrderNow">
+                <button id="Increment" onclick="Increments(7)">+</button>
+                <p id="Counts">0</p>
+                <button id="Decrement" onclick="Decrements(7)">-</button>
+            </div>
+            <div class="Rate">
+                <h2>200</h2>
+            </div>
+        </div>
+        <div class="orderItems">
+            <!--Bomb-->
+            <img src="https://i0.wp.com/fastbeescrackers.com/wp-content/uploads/2025/07/Stripped-Bijli-scaled.jpg?resize=430%2C430&ssl=1" alt="">
+            <div class="OrderNow">
+                <button id="Increment" onclick="Increments(8)">+</button>
+                <p id="Counts">0</p>
+                <button id="Decrement" onclick="Decrements(8)">-</button>
+            </div>
+            <div class="Rate">
+                <h2>430</h2>
+            </div>
+        </div>
+    </section>
+    <section class="OrderNow1">
+        <button class="OrderIt" onclick="CalculatePrice()">Order Now</button>
+        <h3>You Will Have to Pay: $0</h3>
+    </section>
+    <footer id="Contact">
+        <h2>Any Query Contact On: </h2>
+        <h3 id="head">Contact No: +91 46768 65773</h3>
+        <p>or</p>
+        <h3>Email On:  Ecomdiwali@gmail.com</h3>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
